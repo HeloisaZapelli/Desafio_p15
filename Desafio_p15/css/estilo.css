@@ -1,0 +1,53 @@
+body{
+    background-image: url("../img/background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    margin: auto;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2c2e2dee;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 10px;
+    max-width: 450px;
+    background-color: rgb(193, 197, 197);
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+.footer{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #2c2e2dee;
+    color: white;
+}
+
